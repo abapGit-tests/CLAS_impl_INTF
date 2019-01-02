@@ -1,0 +1,23 @@
+CLASS zcl_agt_foobar DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES zif_agt_foobar .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_AGT_FOOBAR IMPLEMENTATION.
+
+
+  METHOD zif_agt_foobar~method1.
+
+    WRITE 'Hello world'.
+
+  ENDMETHOD.
+ENDCLASS.
